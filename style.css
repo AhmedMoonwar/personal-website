@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding-top: 100px;
+    height: 750px;
+}
+h1,h3,h4,h5,p{
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 40px;
+}
+.color-highlight
+{
+    color: #ec4c7a;
+}
+.half-width
+{
+    width: 36%;
+    margin-left: 5%;
+    /* padding: 2%; */
+    float: left;
+
+}
+.half-width img
+{
+    width: 100%;
+}
+.text-size
+{
+    margin-top: 180px;
+    margin-left: 190px;
+}
+.top-banner
+{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(#ec5196, #ec4b75);
+    padding: 8px 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+.dream-banner
+{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.dream-img
+{
+    margin-left: 90px;
+}
+.work-area
+{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.work-area h2
+{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.work-img
+{
+    margin: 0 180px;
+}
+.work-img img
+{
+    width: 325px;
+}
+.client-area
+{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 560px;
+}
+.client-area h2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.client-person
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.client-person h4{
+    text-align: center;
+    margin: 2px;
+}
+.client-person p{
+    text-align: center;
+    margin-top: 2px;
+}
+.client-person .founder-color{
+    color: gray
+}
+.client-message
+{
+    margin-top: 40px;
+}
+.email-con
+{
+    text-align: center;
+    background-image: linear-gradient(#ec5094, #ed4b73);
+    width: 400px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+}
+.email-con h5{
+    padding-top: 5px;
+    font-size: 20px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: gray;
+}
